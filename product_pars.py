@@ -1,10 +1,12 @@
+from re import T
+import prettytable
 from selenium import webdriver
 import time
+from prettytable import PrettyTable
 
 class Product_pars(object):
 
     result_list = []
-
     URL1 = 'https://5ka.ru/special_offers/'
     
     def __init__(self, driver, product_name):
@@ -18,7 +20,7 @@ class Product_pars(object):
         time.sleep(1)
         
         #accept cockies
-        self.accept_cockies()
+        self.accept_cockies_5ka()
         #click on more special-offers btn
         while 1:
             try:
@@ -31,17 +33,17 @@ class Product_pars(object):
         #create list of product items
         for item in list_items:
             try:
-                info = {}
-                info['name'] = item.find_element_by_class_name('sale-card__title').text
-                info['old cost'] = item.find_element_by_class_name('sale-card__price--old').text
-                info['new cost'] = item.find_element_by_class_name('sale-card__price--new')
-                info['name_shop'] = '5ka'
+                info = []
+                info.append(item.find_element_by_class_name('sale-card__title').text)
+                info.append(item.find_element_by_class_name('sale-card__price--old').text)
+                info.append(item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text)
+                info.append('5ka')
                 self.result_list.append(info)
             except:
                 break
 
-    #method for accept cockies
-    def accept_cockies(self):
+    #method for accept cockies 5ka
+    def accept_cockies_5ka(self):
         try:
             self.driver.find_element_by_class_name('message__button').click()
         except:
@@ -49,9 +51,16 @@ class Product_pars(object):
         return True
 
     def print_table(self):
-        print(' __________________________________________________________________ ')
-        print('|       product_name       |     old price     |     new price     |')
-        print(' ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ ')
+        table = PrettyTable()
+        table.field_names = ["PRODUCT_NAME", "OLD_PRICE", "NEW_PRICE", "SHOP"]
         for element in self.result_list:
-            for name, old_price, new_price in element.items():
-                print(f"| {name.title()}")
+            table.add_row(element)
+        print(table)
+        table.clear()
+
+    def clear_all(self):
+        self.result_list.clear()
+
+    
+
+

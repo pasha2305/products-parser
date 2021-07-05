@@ -14,6 +14,8 @@ def main():
             product = input("Введите название продукта:")
             parser = Product_pars(driver, product)
             parser.parse_product_5ka()
+            parser.print_table()
+            parser.clear_all()
         elif input_number == 2:
             print('\nВыберите интересующий магазин:\n' +
             '1. Пятерочка\n'+
@@ -22,8 +24,8 @@ def main():
             shop = input('Введите номер:')
         elif input_number != 0:
             print('Указан некорректный номер.')
-            driver.close()
-            driver.quit()
+    driver.close()
+    driver.quit()
 
 def print_menu():
     print('1. Find element by name')
