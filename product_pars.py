@@ -1,13 +1,12 @@
-from selenium import webdriver
 import time
 from prettytable import PrettyTable
-from selenium.webdriver.common.by import By
 
 class Product_pars(object):
 
     result_list = []
     URL1 = 'https://5ka.ru/special_offers/'
     URL2 = 'https://www.perekrestok.ru/'
+    URL3 = 'https://karusel.ru/catalog/'
     
     def __init__(self, driver, product_name):
         self.driver = driver
@@ -22,16 +21,23 @@ class Product_pars(object):
         self.driver.find_element_by_class_name('Input__InputStyled-sc-1kqlv3u-0').send_keys(self.product_name)
         self.click_on_element('search-form__button-submit')
         self.click_on_element('cookie-btn')
-        while 1:          
-            if self.click_on_element('sc-jSgupP.cEbLHv') == False:
-                break
+        time.sleep(1)
+        self.show_all_items('sc-jSgupP.cEbLHv')
+        list_items = self.driver.find_elements_by_class_name('sc-fybufo.hKavdd')
+        print(len(list_items))
+        for item in list_items:
+            self.result_list.append(self.get_item_info_perekrestok(item))
 
-    def click_on_element(self, el_name):
+    def get_item_info_perekrestok(self, item):
+        info = []
+        info.append(item.find_element_by_class_name('product-card__link-text').text)
         try:
-            self.driver.find_element_by_class_name(el_name).click()
+            info.append(item.find_element_by_class_name('price-old').text)
         except:
-            return False
-        return True
+            info.append('')
+        info.append(item.find_element_by_class_name('price-new').text)
+        info.append('perekrestok')
+        return info
 
     ###
     ### Пятерочка   
@@ -45,9 +51,8 @@ class Product_pars(object):
         #accept cockies
         self.click_on_element('message__button')
         #click on more special-offers btn
-        while 1:
-            if self.click_on_element('special-offers__more-btn') == False:
-                break
+        time.sleep(1)
+        self.show_all_items('special-offers__more-btn')
         #items_list
         list_items = self.driver.find_elements_by_class_name('sale-card')
         #create list of product items
@@ -63,7 +68,62 @@ class Product_pars(object):
         info.append(item.find_element_by_class_name('sale-card__price--old').text)
         info.append(item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text)
         info.append('5ka')
-        return info      
+        return info 
+
+    ###
+    ### Карусель 
+    ###     
+    def parse_product_karusel(self):
+        self.driver.get(self.URL3)
+        self.driver.find_element_by_class_name('karusel-form-input.karusel-form-search__input').send_keys(self.product_name)
+        self.scroll_to_down_page()
+        list_items = self.driver.find_elements_by_class_name('card.card--none.promo-catalog-product.card--with-hover.card--fit-content')
+        for item in list_items:
+            try:
+                self.result_list.append(self.get_item_info_karusel(item))
+            except:
+                break
+    
+    def get_item_info_karusel(self, item):
+        info = []
+        info.append(item.find_element_by_class_name('promo-catalog-product__name').text)
+        info.append(item.find_element_by_class_name('sale-card__price--old').text)
+        info.append(item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text)
+        info.append('5ka')
+        return info
+
+    def scroll_to_down_page(self):
+        # Get scroll height
+        last_height = self.driver.execute_script("return document.body.scrollHeight")
+
+        while True:
+            SCROLL_PAUSE_TIME = 1
+            # Scroll down to bottom
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            # Wait to load page
+            time.sleep(SCROLL_PAUSE_TIME)
+
+            # Calculate new scroll height and compare with last scroll height
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
+
+    ###
+    ### Вспомогательные методы
+    ###
+    def show_all_items(self, el_class):
+        while 1:        
+            time.sleep(1)
+            if self.click_on_element(el_class) == False:
+                break
+
+    def click_on_element(self, el_class):
+        try:
+            self.driver.find_element_by_class_name(el_class).click()
+        except:
+            return False
+        return True
 
     def print_table(self):
         table = PrettyTable()
