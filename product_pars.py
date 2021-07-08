@@ -12,9 +12,6 @@ class Product_pars(object):
     def __init__(self, driver, product_name):
         self.driver = driver
         self.product_name = product_name
-    
-    def __init__(self, driver):
-        self.driver = driver
 
     ###
     ### Перекресток
@@ -27,7 +24,7 @@ class Product_pars(object):
         self.click_on_element('cookie-btn')
         time.sleep(1)
         self.show_all_items('sc-jSgupP.cEbLHv')
-        list_items = self.driver.find_elements_by_class_name('sc-fybufo.hKavdd')
+        list_items = self.driver.find_elements_by_class_name('sc-jrAGrp.kAEaPn')
         for item in list_items:
             self.result_list.append(self.get_item_info_perekrestok(item))
 
@@ -136,7 +133,7 @@ class Product_pars(object):
         last_height = self.driver.execute_script("return document.body.scrollHeight")
 
         while True:
-            SCROLL_PAUSE_TIME = 2
+            SCROLL_PAUSE_TIME = 1
             # Scroll down to bottom
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             self.driver.execute_script(f"window.scrollTo(0, window.scrollY - 500);")
