@@ -78,18 +78,15 @@ class Product_pars(object):
         self.driver.find_element_by_class_name('karusel-form-input.karusel-form-search__input').send_keys(self.product_name)
         self.scroll_to_down_page()
         list_items = self.driver.find_elements_by_class_name('card.card--none.promo-catalog-product.card--with-hover.card--fit-content')
-        for item in list_items:
-            try:
-                self.result_list.append(self.get_item_info_karusel(item))
-            except:
-                break
-    
+        for item in list_items:   
+            self.result_list.append(self.get_item_info_karusel(item))
+                
     def get_item_info_karusel(self, item):
         info = []
         info.append(item.find_element_by_class_name('promo-catalog-product__name').text)
-        info.append(item.find_element_by_class_name('sale-card__price--old').text)
-        info.append(item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text)
-        info.append('5ka')
+        info.append(item.find_element_by_class_name('promo-catalog-product__price').find_element_by_css_selector('s').text)
+        info.append(item.find_element_by_class_name('promo-catalog-product__price').find_element_by_css_selector('b').text)
+        info.append('karusel')
         return info
 
     def scroll_to_down_page(self):
