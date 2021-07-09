@@ -90,11 +90,30 @@ class Product_pars(object):
             except:
                 break
 
+    def parse_all_products_5ka(self):
+        self.driver.get(self.URL1)
+        time.sleep(2)
+        self.click_on_element('message__button')
+        time.sleep(1)
+        self.show_all_items('special-offers__more-btn')
+        list_items = self.driver.find_elements_by_class_name('sale-card')
+        for item in list_items:
+            try:
+                self.result_list.append(self.get_item_info_5ka(item))
+            except:
+                break
+        self.print_elements_to_excel('5ka')
+        
+
     def get_item_info_5ka(self, item):
         info = []
         info.append(item.find_element_by_class_name('sale-card__title').text)
-        info.append(item.find_element_by_class_name('sale-card__price--old').text)
-        info.append(item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text)
+        old_price = item.find_element_by_class_name('sale-card__price--old').text
+        new_price = item.find_element_by_class_name('sale-card__price--new').find_element_by_class_name('sale-card__price--new').text
+        old_price = (str(old_price[:len(old_price)-2]) + '.' + str(old_price[len(old_price)-2:]))
+        new_price = (str(new_price[:len(new_price)-2]) + '.' + str(new_price[len(new_price)-2:]))
+        info.append(old_price)
+        info.append(new_price)
         info.append('5ka')
         return info 
 
@@ -171,7 +190,7 @@ class Product_pars(object):
     ###
     def show_all_items(self, el_class):
         while 1:        
-            time.sleep(1)
+            time.sleep(2)
             if self.click_on_element(el_class) == False:
                 break
 

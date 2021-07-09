@@ -1,0 +1,451 @@
+1625506144656	geckodriver	INFO	Listening on 127.0.0.1:58321
+1625506144672	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile3HaShI"
+1625506145272	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile3HaShI/search.json.mozlz4", (void 0)))
+1625506147725	Marionette	INFO	Listening on port 58326
+1625506147780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625506160729	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625506197851	Marionette	INFO	Stopped listening on port 58326
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625743050266	geckodriver	INFO	Listening on 127.0.0.1:49517
+1625743051178	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileBTKZO1"
+1625743052075	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileBTKZO1/search.json.mozlz4", (void 0)))
+1625743055688	Marionette	INFO	Listening on port 49530
+1625743055760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625743067518	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625743078422	Marionette	INFO	Stopped listening on port 49530
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625743124119	geckodriver	INFO	Listening on 127.0.0.1:49638
+1625743124135	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilevDJhmC"
+1625743124847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilevDJhmC/search.json.mozlz4", (void 0)))
+1625743128246	Marionette	INFO	Listening on port 49647
+1625743128373	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625743146362	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625743234226	Marionette	INFO	Stopped listening on port 49647
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625743665473	geckodriver	INFO	Listening on 127.0.0.1:49863
+1625743665571	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilefMXq8I"
+1625743666378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilefMXq8I/search.json.mozlz4", (void 0)))
+1625743669075	Marionette	INFO	Listening on port 49872
+1625743669154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625743677062	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625743718390	geckodriver	INFO	Listening on 127.0.0.1:49973
+1625743718405	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileuR9C5m"
+1625743719116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileuR9C5m/search.json.mozlz4", (void 0)))
+1625743721645	Marionette	INFO	Listening on port 49978
+1625743721720	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625743731616	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625743748843	Marionette	INFO	Stopped listening on port 49872
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625743750213	Marionette	INFO	Stopped listening on port 49978
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625744089349	geckodriver	INFO	Listening on 127.0.0.1:50087
+1625744089439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile7XrQXa"
+1625744090130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile7XrQXa/search.json.mozlz4", (void 0)))
+1625744092757	Marionette	INFO	Listening on port 50092
+1625744092826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744102104	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744128806	geckodriver	INFO	Listening on 127.0.0.1:50190
+1625744128820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileehabBq"
+1625744129476	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileehabBq/search.json.mozlz4", (void 0)))
+1625744131332	Marionette	INFO	Stopped listening on port 50092
+1625744132690	Marionette	INFO	Listening on port 50195
+1625744132801	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744139185	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744309622	geckodriver	INFO	Listening on 127.0.0.1:50311
+1625744310646	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileoz0xuz"
+1625744311424	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileoz0xuz/search.json.mozlz4", (void 0)))
+1625744314105	Marionette	INFO	Listening on port 50318
+1625744314175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744330493	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744369090	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/TbD3vPFlUWKZD-9L4ZxB0HJI/styles__ltr.css without a browsingContextID set
+CoreSVG has logged an error. Set environment variabe "CORESVG_VERBOSE" to learn more.
+JavaScript warning: https://avr.i-trailer.ru/vpaut/js/playerjs-konteiner6.js, line 1: unreachable code after return statement
+JavaScript warning: https://avr.i-trailer.ru/vpaut/js/playerjs-konteiner6.js line 5 > eval, line 1: unreachable code after return statement
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://instreamvideo.ru/storage/linear/linear-vpaid.js, line 2586: unreachable code after return statement
+JavaScript error: https://cache.videohype.net/videohype/vpaidwrapper2.js?t=21030117, line 3: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://static.kost.tv/player/playerjs.js, line 1: unreachable code after return statement
+JavaScript warning: https://static.kost.tv/player/playerjs.js line 5 > eval, line 1: unreachable code after return statement
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 11: TypeError: e.replace is not a function
+1625744615890	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1625744628203	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 11: TypeError: e.replace is not a function
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn01.nativeroll.tv/js/nr-player.min.js, line 11: TypeError: e.replace is not a function
+JavaScript warning: https://static.kost.tv/player/playerjs.js, line 1: unreachable code after return statement
+JavaScript warning: https://static.kost.tv/player/playerjs.js line 5 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://static.kost.tv/player/playerjs.js, line 1: unreachable code after return statement
+JavaScript error: https://utraff.com/vpaidp/bundle.544f9357.js, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://static.kost.tv/player/playerjs.js, line 1: unreachable code after return statement
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+1625744689472	Marionette	INFO	Stopped listening on port 50318
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625744692523	geckodriver	INFO	Listening on 127.0.0.1:50916
+1625744692546	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile8AujCY"
+1625744693181	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile8AujCY/search.json.mozlz4", (void 0)))
+1625744695962	Marionette	INFO	Listening on port 50921
+1625744696035	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744707672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744817917	Marionette	INFO	Stopped listening on port 50921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625744820157	geckodriver	INFO	Listening on 127.0.0.1:51041
+1625744820171	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile5HDhRS"
+1625744820781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile5HDhRS/search.json.mozlz4", (void 0)))
+1625744823622	Marionette	INFO	Listening on port 51046
+1625744823730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744824189	Marionette	INFO	Stopped listening on port 50195
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625744832915	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744843552	Marionette	INFO	Stopped listening on port 51046
+1625744906731	geckodriver	INFO	Listening on 127.0.0.1:51175
+1625744906746	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileXpeh8V"
+1625744907337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileXpeh8V/search.json.mozlz4", (void 0)))
+1625744909914	Marionette	INFO	Listening on port 51180
+1625744909956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625744917919	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625744926958	Marionette	INFO	Stopped listening on port 51180
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625831312826	geckodriver	INFO	Listening on 127.0.0.1:50042
+1625831313836	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilehozuhz"
+1625831314827	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilehozuhz/search.json.mozlz4", (void 0)))
+1625831317780	Marionette	INFO	Listening on port 50053
+1625831317834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625831350716	Marionette	INFO	Stopped listening on port 50053
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625831353544	geckodriver	INFO	Listening on 127.0.0.1:50122
+1625831353565	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileVq8HnA"
+1625831354391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileVq8HnA/search.json.mozlz4", (void 0)))
+1625831357370	Marionette	INFO	Listening on port 50131
+1625831357446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625831365403	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831370168	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831376555	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831380452	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831383836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831386985	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831390723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831394700	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831400163	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831404591	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831408368	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831412718	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831418145	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831422867	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831438699	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831451945	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831457502	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831464813	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831469930	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831475444	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831491620	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://karusel.ru/client.17b18dd5.js, line 1: TypeError: e.response is undefined
+1625831582256	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831588487	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831593563	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831595707	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831600681	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831606125	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831612010	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831618939	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831625903	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831633065	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831654761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831662964	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831704203	Marionette	INFO	Stopped listening on port 50131
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625831844768	geckodriver	INFO	Listening on 127.0.0.1:50469
+1625831844784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileWdbXRA"
+1625831845472	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileWdbXRA/search.json.mozlz4", (void 0)))
+1625831848232	Marionette	INFO	Listening on port 50478
+1625831848370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625831859539	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831863590	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831870374	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831874110	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831877178	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831924865	geckodriver	INFO	Listening on 127.0.0.1:50592
+1625831924881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileYFLy6Q"
+1625831925487	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileYFLy6Q/search.json.mozlz4", (void 0)))
+1625831928106	Marionette	INFO	Listening on port 50597
+1625831928205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625831928934	Marionette	INFO	Stopped listening on port 50478
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625831941597	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625831950183	Marionette	INFO	Stopped listening on port 50597
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625832106179	geckodriver	INFO	Listening on 127.0.0.1:50708
+1625832106200	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilexol7z1"
+1625832106789	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilexol7z1/search.json.mozlz4", (void 0)))
+1625832109686	Marionette	INFO	Listening on port 50713
+1625832109747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625832120208	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4562: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIContentPermissionRequest.cancel]
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4562: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIContentPermissionRequest.cancel]
+1625832173179	geckodriver	INFO	Listening on 127.0.0.1:50821
+1625832173196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileLOtXdl"
+1625832173829	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileLOtXdl/search.json.mozlz4", (void 0)))
+1625832176428	Marionette	INFO	Listening on port 50826
+1625832176593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625832187470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625832191214	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625832494327	geckodriver	INFO	Listening on 127.0.0.1:50955
+1625832494346	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile4pRNDY"
+1625832495060	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile4pRNDY/search.json.mozlz4", (void 0)))
+console.warn: services.settings: Error retrieving the getLastModified timestamp from blocklists/addons-bloomfilters RemoteSettingsClient Message: Error: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() The application is shutting down
+console.error: services.settings: 
+  Message: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonsByTypes :: line 2772"  data: no]
+  Stack:
+    getAddonsByTypes@resource://gre/modules/AddonManager.jsm:2772:24
+getAddonsByTypes@resource://gre/modules/AddonManager.jsm:4059:33
+_onUpdate@resource://gre/modules/Blocklist.jsm:1103:37
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+1625832497354	Marionette	INFO	Stopped listening on port 50713
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625832497880	Marionette	INFO	Listening on port 50960
+1625832497997	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625832498877	Marionette	INFO	Stopped listening on port 50826
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625832508291	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625832553367	Marionette	INFO	Stopped listening on port 50960
+1625832559609	geckodriver	INFO	Listening on 127.0.0.1:51071
+1625832559630	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileBO9Awd"
+1625832560373	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileBO9Awd/search.json.mozlz4", (void 0)))
+1625832563404	Marionette	INFO	Listening on port 51076
+1625832563503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625832567813	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625833821685	Marionette	INFO	Stopped listening on port 51076
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625833825235	geckodriver	INFO	Listening on 127.0.0.1:51345
+1625833825253	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilehilLex"
+1625833825985	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilehilLex/search.json.mozlz4", (void 0)))
+1625833828838	Marionette	INFO	Listening on port 51350
+1625833828922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625833837004	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625833872796	Marionette	INFO	Stopped listening on port 51350
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625833877204	geckodriver	INFO	Listening on 127.0.0.1:51457
+1625833877218	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilesKPtkr"
+1625833878029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilesKPtkr/search.json.mozlz4", (void 0)))
+1625833880663	Marionette	INFO	Listening on port 51462
+1625833880749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625833886081	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625833943602	Marionette	INFO	Stopped listening on port 51462
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625833946386	geckodriver	INFO	Listening on 127.0.0.1:51568
+1625833946405	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileb9UiCH"
+1625833947059	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileb9UiCH/search.json.mozlz4", (void 0)))
+1625833949836	Marionette	INFO	Listening on port 51573
+1625833949926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625833956514	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834023573	Marionette	INFO	Stopped listening on port 51573
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834025852	geckodriver	INFO	Listening on 127.0.0.1:51685
+1625834025868	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileSYYP3V"
+1625834026485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileSYYP3V/search.json.mozlz4", (void 0)))
+1625834028980	Marionette	INFO	Listening on port 51690
+1625834029072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834035614	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834139922	Marionette	INFO	Stopped listening on port 51690
+1625834143588	geckodriver	INFO	Listening on 127.0.0.1:51805
+1625834143605	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileEtje3L"
+1625834144397	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileEtje3L/search.json.mozlz4", (void 0)))
+1625834147264	Marionette	INFO	Listening on port 51810
+1625834147361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834161755	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834302452	Marionette	INFO	Stopped listening on port 51810
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834457480	geckodriver	INFO	Listening on 127.0.0.1:51941
+1625834457497	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile2heXGf"
+1625834458185	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile2heXGf/search.json.mozlz4", (void 0)))
+1625834461277	Marionette	INFO	Listening on port 51946
+1625834461342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834468113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834549908	geckodriver	INFO	Listening on 127.0.0.1:52063
+1625834549925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileGXvTmU"
+1625834550659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileGXvTmU/search.json.mozlz4", (void 0)))
+1625834553662	Marionette	INFO	Listening on port 52068
+1625834553785	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834554350	Marionette	INFO	Stopped listening on port 51946
+1625834559150	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834591415	Marionette	INFO	Stopped listening on port 52068
+1625834645655	geckodriver	INFO	Listening on 127.0.0.1:52181
+1625834645672	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileJKJLoS"
+1625834646398	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileJKJLoS/search.json.mozlz4", (void 0)))
+1625834649429	Marionette	INFO	Listening on port 52186
+1625834649546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834655343	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834703873	Marionette	INFO	Stopped listening on port 52186
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834705966	geckodriver	INFO	Listening on 127.0.0.1:52296
+1625834705983	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile0mbSQZ"
+1625834706641	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile0mbSQZ/search.json.mozlz4", (void 0)))
+1625834709294	Marionette	INFO	Listening on port 52301
+1625834709397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834714550	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834738877	Marionette	INFO	Stopped listening on port 52301
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834741691	geckodriver	INFO	Listening on 127.0.0.1:52401
+1625834741708	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile1f5Vsa"
+1625834742367	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile1f5Vsa/search.json.mozlz4", (void 0)))
+1625834744884	Marionette	INFO	Listening on port 52406
+1625834744924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834752178	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834770062	Marionette	INFO	Stopped listening on port 52406
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834794983	geckodriver	INFO	Listening on 127.0.0.1:52504
+1625834795000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilepv9lli"
+1625834795661	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofilepv9lli/search.json.mozlz4", (void 0)))
+1625834798276	Marionette	INFO	Listening on port 52509
+1625834798342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834806515	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625834810404	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625834840227	Marionette	INFO	Stopped listening on port 52509
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625834842283	geckodriver	INFO	Listening on 127.0.0.1:52639
+1625834842296	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile0C8qyj"
+1625834842895	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofile0C8qyj/search.json.mozlz4", (void 0)))
+1625834845702	Marionette	INFO	Listening on port 52644
+1625834845740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625834860900	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625834864237	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1625834930983	Marionette	INFO	Stopped listening on port 52644
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625839313243	geckodriver	INFO	Listening on 127.0.0.1:53417
+1625839314272	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileilXolw"
+1625839315165	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cs/qggjc5nd7gv0gkymdy0m0rhw0000gn/T/rust_mozprofileilXolw/search.json.mozlz4", (void 0)))
+1625839318095	Marionette	INFO	Listening on port 53424
+1625839318179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625839401993	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625839405767	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1625839851146	Marionette	INFO	Stopped listening on port 53424
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
